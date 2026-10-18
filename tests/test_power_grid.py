@@ -41,5 +41,5 @@ class TestPowerGrid(unittest.TestCase):
         self.assertEqual(thermals[0].name, "Тест ТЕС")
 
 
-if name == 'main':
+if __name__ == '__main__':
     unittest.main(verbosity=2)
